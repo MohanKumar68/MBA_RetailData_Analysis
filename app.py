@@ -11,7 +11,7 @@ st.write("Analyze Indian grocery transactions and get store layout optimization 
 # ==========================================================
 # Generate dataset and train models
 # ==========================================================
-if st.button("Generate Dataset and Train Models"):
+if st.button("Run Market Basket Analysis"):
     with st.spinner("Training models..."):
         st.session_state["results"] = generate_and_train()
     st.success("Training completed!")
