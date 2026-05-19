@@ -5,7 +5,7 @@ from model_training import generate_and_train
 
 st.set_page_config(page_title="Market Basket Analysis", layout="wide")
 
-st.title("🛒 Market Basket Analysis using Apriori and FP-Growth")
+st.title("🛒 SmartShelf")
 st.write("Analyze Indian grocery transactions and get store layout optimization suggestions.")
 
 # ==========================================================
